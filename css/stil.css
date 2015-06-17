@@ -1,0 +1,30 @@
+.tab-nav{
+    margin-top: 20px;
+}
+ 
+ul.tabs{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+ 
+ul.tabs li{
+    float: left;
+    padding:10px;
+    
+}
+ 
+ul.tabs li.active{
+    background: #efefef;
+}
+ 
+.panel{
+    display: none;
+    background: #efefef;
+    padding:20px;
+}
+ 
+.panel.active{
+    display: block;
+}
+
